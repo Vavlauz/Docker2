@@ -3,4 +3,4 @@ WORKDIR /opt/app
 COPY node .
 RUN npm install
 CMD ["npm", "start"]
-EXPOSE 9999
+EXPOSE 9991
